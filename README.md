@@ -19,7 +19,7 @@ La configuración de NGINX incluida en este repositorio está diseñada para ser
 2. **Añadir la Configuración**: Copia y pega la configuración proporcionada en este repositorio dentro del bloque `server` de tu archivo de configuración.
 
 3. **Ajustar los Valores de Configuración**:
-   - Cambia `go.api.evolpos.cloud` por tu dominio.
+   - Cambia `tu-dominio.com` por tu dominio.
    - Asegúrate de que las rutas a los certificados SSL (`ssl_certificate` y `ssl_certificate_key`) correspondan a las ubicaciones y nombres de tus archivos de certificado.
 
 4. **Configurar CORS**: Ajusta el valor `'https://DOMINIO'` en las directivas `Access-Control-Allow-Origin` con el dominio desde el cual permitirás las solicitudes. Si necesitas permitir múltiples dominios, considera ajustar esta configuración según tus necesidades específicas.
