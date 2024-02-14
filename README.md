@@ -1,4 +1,4 @@
-# NGINX Coniguracion para HTMX con soporte CORS
+# NGINX Configuracion para HTMX con soporte CORS
 
 Este repositorio contiene un ejemplo de configuración de NGINX diseñado para trabajar con HTMX, incluyendo la configuración necesaria para soportar CORS (Cross-Origin Resource Sharing). Esta configuración permite a los desarrolladores integrar servicios backend con frontends HTMX, habilitando solicitudes entre dominios de manera segura y eficiente.
 
